@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="500dp"
+    android:background="#fff">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        >
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:hint="@string/pin_number"
+            android:inputType="numberPassword"
+            android:maxLength="4"
+
+            android:id="@+id/bill_pay_pin"/>
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:hint="@string/merchant_id"
+            android:inputType="number"
+            android:maxLength="7"
+            android:id="@+id/merchant_bill_id"/>
+        </com.google.android.material.textfield.TextInputLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+            <EditText
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="@string/bill_ref_number"
+                android:inputType="number"
+                android:maxLength="10"
+                android:id="@+id/bill_reference_number"
+                android:layout_alignParentLeft="true"
+
+                />
+            </com.google.android.material.textfield.TextInputLayout>
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                android:background="@drawable/button_icon"
+                android:id="@+id/bill_info_request"
+                android:text="Bill Info"
+                android:textAllCaps="false"
+                android:textColor="#fff"
+                android:layout_alignParentRight="true"
+                 />
+
+
+        </RelativeLayout>
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/cyanblue"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+
+            >
+
+            <RadioButton
+                android:id="@+id/full_pay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/full_payment"/>
+
+            <RadioButton
+                android:id="@+id/partial_pay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/partial_payment"
+                />
+        </RadioGroup>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:hint="@string/wallet_amount_to_pay"
+            android:inputType="number"
+            android:maxLength="5"
+            android:id="@+id/merchant_bil_payment_amount"/>
+        </com.google.android.material.textfield.TextInputLayout>
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/cyanblue"
+            android:orientation="horizontal"
+            >
+
+            <RadioButton
+                android:id="@+id/wallet_account"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/via_mmt"/>
+
+            <RadioButton
+                android:id="@+id/bank_account"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/via_bank"
+                />
+        </RadioGroup>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            >
+            <Button
+                android:layout_width="120dp"
+                android:layout_height="60dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/button_icon"
+                android:text="Pay Your Bill"
+                android:textAllCaps="false"
+                android:textColor="#fff"
+                android:id="@+id/merchant_bill_payment"
+
+
+                />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

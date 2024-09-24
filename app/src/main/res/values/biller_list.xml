@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="agency">
+        <item>Please Select Company </item>
+        <item>Adama City</item>
+        <item>Amboo City</item>
+        <item>Walliso City</item>
+        <item>Negele Borena</item>
+        <item>Adola Town</item>
+        <item>Shakiso Town</item>
+    </string-array>
+</resources>

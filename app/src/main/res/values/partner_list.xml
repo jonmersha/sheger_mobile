@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="partner_array">
+        <item>Please Select from partner list</item>
+        <item>Telecom</item>
+        <item>Derash</item>
+        <item>Eduaction</item>
+        <item>Electricity</item>
+        <item>Water Supply</item>
+    </string-array>
+</resources>

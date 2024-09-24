@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+
+    <group android:checkableBehavior="single"
+        >
+        <item
+            android:id="@+id/bt"
+            android:icon="@drawable/ic_stop_transation"
+            android:title="@string/block_transation"
+
+            />
+        <item
+            android:id="@+id/pinchange"
+            android:icon="@drawable/ic_pinchang"
+            android:title="@string/change_pin" />
+        <item
+            android:id="@+id/lostphone"
+            android:icon="@drawable/ic_lost_mobile_phone"
+            android:title="@string/lostphonereporting" />
+        <item
+            android:id="@+id/ussd_lan_setting"
+            android:icon="@drawable/ic_language_change"
+            android:title="@string/languge_ussd" />
+        <item
+            android:id="@+id/language"
+            android:icon="@drawable/ic_language_change"
+            android:title="@string/language_setting_app" />
+    </group>
+
+    <item android:title="@string/communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/share_app" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/send_loc" />
+        </menu>
+    </item>
+
+</menu>

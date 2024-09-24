@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#383737"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="#383737"
+        android:orientation="vertical"
+        android:id="@+id/logo"
+        android:layout_centerHorizontal="true"
+
+        >
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/logo_lasts" />
+    </RelativeLayout>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:layout_below="@+id/logo"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ac2ac"
+        android:paddingLeft="10dp"
+        android:background="#383737"
+        android:textColor="#fff"
+
+        />
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <EditText
+        android:id="@+id/acpinnumber"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/comm_pin_code"
+        android:padding="10dp"
+        android:inputType="numberPassword"
+
+        />
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+    <EditText
+        android:id="@+id/acamount"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/ac2ac_amount_to_transfer"
+        android:padding="10dp"
+        android:inputType="number"
+        />
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+    <EditText
+        android:id="@+id/acben"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/bene_acc_number"
+        android:padding="10dp"
+        android:inputType="number"
+        />
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+    <EditText
+        android:id="@+id/acdesc"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/description"
+        android:padding="10dp"
+        android:inputType="text"
+        />
+            </com.google.android.material.textfield.TextInputLayout>
+</LinearLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

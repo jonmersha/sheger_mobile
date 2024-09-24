@@ -1,0 +1,135 @@
+<resources>
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="app_name">Coopay</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">COOPay Customer</string>
+    <string name="nav_header_subtitle">Cooperative Bank of Oromia</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Change Language</string>
+
+
+    <string name="wallet_balance">Balance</string>
+    <string name="wallet_send_money">Send money</string>
+    <string name="wallet_withdraw_money">Withdraw Cash</string>
+    <string name="wallet_pay_bill">Bill Payment</string>
+    <string name="wallet_show_transaction">Show Transaction</string>
+    <string name="wallet_mobile_card">Mobile Top-up</string>
+    <string name="wallet_local_remitance">Local Remittance</string>
+
+
+    <string name="bnk_balance">Balance</string>
+    <string name="bnk_mini_statement">Mini Statment</string>
+    <string name="bnk_Wallet_bank_transfer">Wallet to Other Account</string>
+    <string name="ac2ac">Account to Account</string>
+    <string name="bnk_bank_to_wallet_transfer">Bank to Wallet</string>
+    <string name="bnk_Walet_to_bank">Wallet to Bank</string>
+    <string name="comm_pin_code">"Insert PIN Code "</string>
+    <string name="ac2ac_amount_to_transfer">Amount To Transfer</string>
+    <string name="bene_acc_number">Account Number</string>
+    <string name="description">Comment</string>
+    <string name="bnk_bank_to_wallet_transfer_amount">Tranfer amount</string>
+    <string name="bnk_Walet_to_bank_amount">Amount</string>
+    <string name="wallet_mobile_number">Mobile number</string>
+    <string name="wallet_mobile_number_confirm">Confirm Number</string>
+    <string name="wallet_send_money_amount">Amount</string>
+    <string name="wallet_agent_number">Agent Number</string>
+    <string name="wallet_agent_number_confirm">Confirm Agent Number</string>
+    <string name="wallet_withdraw_amount">Withdraw amount</string>
+    <string name="wallet_amount_to_pay">Amount To Pay</string>
+    <string name="wallet_customer_name">Customer Name</string>
+    <string name="wallet_customer_address">Address</string>
+    <string name="wallet_amount_to_send">Tranfer amount</string>
+    <string name="wallet_deduct_from_sender">Including Sending Fee</string>
+    <string name="wallet_deduct_from_beneficiery">Deduct from Customer</string>
+    <string name="bnk_Wallet_bank_transfer_amount">Tranfer amount</string>
+    <string name="wallet_self_recharge">Self recharge</string>
+    <string name="wallet_for_other">Recharge other number</string>
+    <string name="wallet_other_number">Mobile number</string>
+    <string name="wallet_recharge_amount">Recharge amount</string>
+    <string name="wallet_single">Single Statment</string>
+    <string name="wallet_mini">MINI statment</string>
+    <string name="wallet_money">Wallet</string>
+    <string name="coopbank">CoopBank</string>
+    <string name="language_setting">Chage Language</string>
+    <string name="wallet_balance_com">Balance</string>
+    <string name="bank_balance">Balance</string>
+    <string name="bnk_bank_to_wallet_tranfer_amount">Tranfer amount</string>
+    <string name="amharic">አማርኛ</string>
+    <string name="oromo">Afaan Oromoo</string>
+    <string name="english">English</string>
+    <string name="block_transation">Block Transaction</string>
+    <string name="change_pin">Change PIN</string>
+    <string name="lostphonereporting">Reporting lost phone</string>
+    <string name="edit_account">Edit Account</string>
+    <string name="communicate">Communication</string>
+    <string name="share_app">Share</string>
+    <string name="send_loc">Send</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="Soomaali">Soomaali</string>
+    <string name="pin_change">Change PIN</string>
+    <string name="comm_pin_Old">Insert old PIN code</string>
+    <string name="pin_miss_match">PIN code missmatch</string>
+    <string name="new_pin_Old">Insert new PIN</string>
+    <string name="new_pin_again">Confirm New Pin</string>
+    <string name="comm_pin">Enter New PIN</string>
+    <string name="language_setting_app">App Language Setting</string>
+    <string name="languge_ussd">USSD Languge Change</string>
+    <string name="lost_phone1">Insert lost phone number</string>
+    <string name="lost_phone_pin">Lost  phone PIN</string>
+    <string name="comment">Insert your comment</string>
+    <string name="intended_number">Intended number</string>
+    <string name="Wrong_number">Insert mistaken number</string>
+    <string name="pin_number">Insert your PIN</string>
+    <string name="ok_change_pin">Change PIN</string>
+    <string name="change_language">Change Lanuguage</string>
+    <string name="ussd_language_setting">USSD languge Setting</string>
+    <string name="menu_share">share</string>
+    <string name="system">System Support</string>
+    <string name="network">Network Support</string>
+    <string name="hawala">Hawala Service</string>
+    <string name="e_banking">E-banking</string>
+    <string name="wallet_merchant_payment">Pay To Merchant</string>
+    <string name="merchat_payments">Merchant Payment</string>
+    <string name="merchant_id">Merchant Number</string>
+    <string name="invoice_number">Invoice Number</string>
+    <string name="bill_payment">Bill Payment</string>
+    <string name="via_mmt">Pay Via MMT</string>
+    <string name="via_bank">Pay From Bank Account</string>
+    <string name="full_payment">Full Payment</string>
+    <string name="partial_payment">Partial Payment</string>
+    <string name="bill_ref_number">Bill Refrence Number</string>
+    <string name="partiner_list" translatable="false">Partner List</string>
+
+    <string name="title_activity_splash_full" translatable="false">SplashFull</string>
+    <string name="dummy_button" translatable="false">Dummy Button</string>
+    <string name="dummy_content" translatable="false">DUMMY\nCONTENT</string>
+    <string name="title_activity_telecom_service" translatable="false">TelecomService</string>
+    <string name="title_home" translatable="false">Home</string>
+    <string name="title_dashboard" translatable="false">Dashboard</string>
+    <string name="title_notifications" translatable="false">Notifications</string>
+    <string name="default_notification_channel_id" >Coopay Customer</string>
+    <string name="water_payments">Water Payment</string>
+    <string name="woter_payment">Water Payment</string>
+    <string name="traffic_penality_payment">Addis Ababa Traffic Penality Payment</string>
+    <string name="traffic_penality">Trafic Penality</string>
+    <string name="coopayebirr">coopay e-birr</string>
+    <string name="query_bill_info">Query Bill info</string>
+    <string name="ds_tv">DS TV Payment</string>
+    <string name="pay_amount" translatable="false">Amount</string>
+    <string name="premium">Premium</string>
+    <string name="compuact_pluse" translatable="false">Compact Pluse</string>
+    <string name="compuact_plus" translatable="false">Compact +</string>
+    <string name="compact">Compact</string>
+    <string name="family">Family</string>
+    <string name="access" />
+    <string name="acces">Access</string>
+    <string name="from_bank">From Bank</string>
+    <string name="from_wallet" translatable="false">From Wallet</string>
+
+
+</resources>

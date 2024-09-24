@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#383737"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="#383737"
+        android:orientation="vertical"
+        android:id="@+id/logo"
+        android:layout_centerHorizontal="true"
+        android:padding="50dp"
+        >
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/logo_lasts" />
+
+
+    </RelativeLayout>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:layout_below="@+id/logo"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/block_transation"
+        android:paddingLeft="10dp"
+        android:background="#383737"
+        android:textColor="#fff"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/pin_number"
+        android:inputType="numberPassword"
+        android:id="@+id/block_pin"
+        android:textSize="15dp"
+
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Wrong_number"
+        android:inputType="number"
+        android:textSize="@dimen/textSize"
+        android:id="@+id/wrong_number"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/intended_number"
+        android:inputType="number"
+        android:textSize="@dimen/textSize"
+        android:id="@+id/intended_no"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/comment"
+        android:id="@+id/block_comment"
+        android:textSize="@dimen/textSize"
+        />
+
+    <Button
+        android:id="@+id/block_transaction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OK"
+        android:textAllCaps="false"
+        android:elevation="5dp"
+        android:textColor="#fff"
+        android:background="#313030"
+        />
+
+</LinearLayout>
+    </androidx.cardview.widget.CardView>
+    </RelativeLayout>

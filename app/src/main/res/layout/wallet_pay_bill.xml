@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#383737"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="#383737"
+        android:orientation="vertical"
+        android:id="@+id/logo"
+        android:layout_centerHorizontal="true"
+        >
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/logo_lasts" /><TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/wallet_merchant_payment"
+        android:paddingLeft="10dp"
+        android:textColor="#fff"
+        android:layout_alignParentBottom="true"
+        />
+    </RelativeLayout>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:layout_below="@+id/logo"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+<EditText
+android:id="@+id/pinnumber"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:hint="@string/comm_pin_code"
+android:padding="10dp"
+android:inputType="numberPassword"
+    />
+<EditText
+android:id="@+id/agent1"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:hint="@string/wallet_agent_number"
+android:padding="10dp"
+    android:inputType="number"/>
+<EditText
+android:id="@+id/agent2"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:hint="@string/wallet_agent_number_confirm"
+android:padding="10dp"
+    android:inputType="number"/>
+<EditText
+android:id="@+id/paymount"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:hint="@string/wallet_amount_to_pay"
+android:padding="10dp"
+    android:inputType="number"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>
